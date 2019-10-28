@@ -33,7 +33,7 @@ nav {
 nav ul {
     display: flex;
     margin: 0;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 nav ul li {
@@ -42,21 +42,22 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 48px;
-    transition: 0.5s;
-    padding: 0 20px;
+    transition: 0.3s;
+    padding: 2px 20px;
 }
 
 nav ul li a:hover {
-    background: red;
+    transform: translateY(-3px);    
+    background: rgb(161, 233, 94);
 }
 
 .info-block {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.884);
     width: 60%;
     margin: auto;
     padding: 8%;
@@ -71,16 +72,16 @@ nav ul li a:hover {
     height: 50px;
     border-radius: 15px;
     box-shadow: 2px 2px 15px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .infoButton:hover {
-    background-color: rgb(48, 230, 145);
+    background-color:rgb(161, 233, 94);
 }
 
 .block {
     width: 100%;
-    min-height: 55vh;
+    min-height: 75vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
